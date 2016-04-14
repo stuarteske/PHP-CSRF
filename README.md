@@ -37,3 +37,11 @@
 ``` <input type="text" name="<?= $form_names['password']; ?>" />```
 ``` <input type="submit" value="Login"/>```
 ``` </form>```
+
+## Documentation
+###class CSRF
+- public function get_token_id() {
+- public function get_token() {
+- public function check_valid($method) {
+- public function form_names($names, $regenerate) {
+- private function random($len = 10)
